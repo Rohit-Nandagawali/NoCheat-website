@@ -68,7 +68,7 @@ const DownloadSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3  gap-8 p-10 md:p-24">
         <a
-          href="https://github.com/Rohit-Nandagawali/NoCheat-Browser/releases/download/v1.0.0-beta/NoCheat.Setup.0.1.0.exe"
+          href="https://github.com/Rohit-Nandagawali/NoCheat-Browser/releases/download/v0.1.0-beta/NoCheat.Setup.0.1.0.exe"
           className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900"
           download
         >
