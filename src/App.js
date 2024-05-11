@@ -14,13 +14,13 @@ const App = () => {
         </div>
 
       </div>
-      <div className="container mx-auto z-10 flex flex-col lg:flex-row items-center justify-between px-14">
+      <div className="container mx-24 z-10 flex flex-col lg:flex-row items-center justify-between ">
         <div className="text-center lg:text-left mb-8 lg:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Trustworthy Security <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-indigo-700">NoCheat</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-8">
-            Unlock Your Potential: Honest Achievement with Integrity.
+            Secure Your Online Assessments - Download NoCheat Browser Today!
           </p>
 
           <a href="#download" class="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-medium  text-white bg-gray-800 rounded-xl group">
@@ -63,10 +63,10 @@ const DownloadSection = () => {
           </span>
         </h2>
         <p className="text-lg text-gray-400">
-          Discover the powerful features that make our solution stand out.
+          No More Cheating Worries - Download NoCheat Browser Today!
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3  gap-8 p-24">
+      <div className="grid grid-cols-1 md:grid-cols-3  gap-8 p-10 md:p-24">
         <a
           href="https://github.com/Rohit-Nandagawali/NoCheat-Browser/releases/download/v1.0.0-beta/NoCheat.Setup.0.1.0.exe"
           className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900"
