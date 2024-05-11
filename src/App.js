@@ -33,7 +33,7 @@ const App = () => {
         <div className="relative">
           <img
             src={mockup}
-            alt="Hero Image"
+            alt="NoCheat Mockup"
             className="w-full max-w-md mx-auto rounded-lg shadow-lg scale-110 transform hover:scale-125 transition-all duration-500 hover:rotate-12"
           />
 
