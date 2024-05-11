@@ -117,7 +117,7 @@ const FeatureCards = () => {
 
         {/* card 1 */}
 
-        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group">
+        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group hover:-translate-y-2 transition-all duration-300">
           <div className="bg-indigo-600 p-3 rounded-full mb-4 z-10 shadow-lg shadow-indigo-700/25">
             <LockIcon size={24} className="text-white" />
           </div>
@@ -130,7 +130,7 @@ const FeatureCards = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group">
+        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group  hover:-translate-y-2 transition-all duration-300">
           <div className="bg-green-600 p-3 rounded-full mb-4 z-10 shadow-lg shadow-green-700/25">
             <LaptopMinimal size={24} className="text-white" />
           </div>
@@ -143,7 +143,7 @@ const FeatureCards = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group">
+        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group  hover:-translate-y-2 transition-all duration-300">
           <div className="bg-purple-600 p-3 rounded-full mb-4 z-10 shadow-lg shadow-purple-700/25">
             <ShieldIcon size={24} className="text-white" />
           </div>
