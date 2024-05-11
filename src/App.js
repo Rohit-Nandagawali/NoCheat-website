@@ -75,24 +75,24 @@ const DownloadSection = () => {
           <FaWindows size={24} className="text-purple-500 mr-2 transition-colors duration-300 hover:text-white" />
           <span>Windows</span>
         </a>
-        <a
-          href="#"
+        <p
+
           className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900 cursor-not-allowed"
-          download
+
         >
           <FaApple size={24} className="text-indigo-500 mr-2 transition-colors duration-300 hover:text-white" />
           {/* <span>Mac</span> */}
           <span className='text-gray-400'>Coming soon</span>
-        </a>
-        <a
-          href="#"
+        </p>
+        <p
+
           className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900 cursor-not-allowed"
-          download
+
         >
           <FaLinux size={24} className="text-green-500 mr-2 transition-colors duration-300 hover:text-white" />
           {/* <span>Linux</span> */}
           <span className='text-gray-400'>Coming soon</span>
-        </a>
+        </p>
       </div>
     </div>
   );
