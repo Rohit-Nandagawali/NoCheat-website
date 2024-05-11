@@ -14,7 +14,7 @@ const App = () => {
         </div>
 
       </div>
-      <div className="container mx-auto z-10 flex flex-col lg:flex-row items-center justify-between">
+      <div className="container mx-auto z-10 flex flex-col lg:flex-row items-center justify-between px-14">
         <div className="text-center lg:text-left mb-8 lg:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Trustworthy Security <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-indigo-700">NoCheat</span>
