@@ -8,7 +8,10 @@ const App = () => {
   return (
     <><div className="font-Manrope bg-black min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div class="relative h-full w-full bg-black"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div></div>
+        <div class="relative h-full w-full bg-black">
+          <div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]">
+          </div>
+        </div>
 
       </div>
       <div className="container mx-auto z-10 flex flex-col lg:flex-row items-center justify-between">
@@ -65,25 +68,30 @@ const DownloadSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3  gap-8 p-24">
         <a
-          href="#"
+          href="https://github.com/Rohit-Nandagawali/NoCheat-Browser/releases/download/v1.0.0-beta/NoCheat.Setup.0.1.0.exe"
           className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900"
+          download
         >
           <FaWindows size={24} className="text-purple-500 mr-2 transition-colors duration-300 hover:text-white" />
           <span>Windows</span>
         </a>
         <a
           href="#"
-          className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900"
+          className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900 cursor-not-allowed"
+          download
         >
           <FaApple size={24} className="text-indigo-500 mr-2 transition-colors duration-300 hover:text-white" />
-          <span>Mac</span>
+          {/* <span>Mac</span> */}
+          <span className='text-gray-400'>Coming soon</span>
         </a>
         <a
           href="#"
-          className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900"
+          className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900 cursor-not-allowed"
+          download
         >
           <FaLinux size={24} className="text-green-500 mr-2 transition-colors duration-300 hover:text-white" />
-          <span>Linux</span>
+          {/* <span>Linux</span> */}
+          <span className='text-gray-400'>Coming soon</span>
         </a>
       </div>
     </div>
@@ -107,36 +115,50 @@ const FeatureCards = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-24">
 
-        <div className="bg-gray-900 rounded-2xl p-8 flex flex-col items-start border border-gray-600">
-          <div className="bg-indigo-600 p-3 rounded-full mb-4">
+        {/* card 1 */}
+
+        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group">
+          <div className="bg-indigo-600 p-3 rounded-full mb-4 z-10 shadow-lg shadow-indigo-700/25">
             <LockIcon size={24} className="text-white" />
           </div>
-          <h3 className="text-lg font-bold text-white mb-2"> No Tab Switch</h3>
-          <p className="text-gray-300">
+          <h3 className="text-lg font-bold text-white mb-2 z-10">No Tab Switch</h3>
+          <p className="text-gray-300 z-10">
             Stay focused on your tasks without the temptation to switch tabs, ensuring uninterrupted productivity and concentration.
           </p>
+          <div className="absolute rounded-2xl z-0 bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+
+          </div>
         </div>
 
-        <div className="bg-gray-900 rounded-2xl p-8 flex flex-col items-start border border-gray-600">
-          <div className="bg-green-600 p-3 rounded-full mb-4">
+        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group">
+          <div className="bg-green-600 p-3 rounded-full mb-4 z-10 shadow-lg shadow-green-700/25">
             <LaptopMinimal size={24} className="text-white" />
           </div>
           <h3 className="text-lg font-bold text-white mb-2">No Minimize or Resize</h3>
           <p className="text-gray-300">
             Prevent distractions and maintain full-screen focus by eliminating the ability to minimize or resize the browser window.
           </p>
+          <div className="absolute rounded-2xl z-0 bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+
+          </div>
         </div>
 
-        <div className="bg-gray-900 rounded-2xl p-8 flex flex-col items-start border border-gray-600">
-          <div className="bg-purple-600 p-3 rounded-full mb-4">
+        <div className="bg-gradient-to-br to-gray-950/95 from-gray-950 rounded-2xl p-8 flex flex-col items-start border border-gray-900 relative group">
+          <div className="bg-purple-600 p-3 rounded-full mb-4 z-10 shadow-lg shadow-purple-700/25">
             <ShieldIcon size={24} className="text-white" />
           </div>
           <h3 className="text-lg font-bold text-white mb-2">Screen Protection or No Sharing</h3>
           <p className="text-gray-300">
             Prevent cheating during assessments by enabling screen protection and prohibiting screen sharing software like AnyDesk.
           </p>
+          <div className="absolute rounded-2xl z-0 bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+
+          </div>
         </div>
+
+
       </div>
+
     </div>
   );
 };
