@@ -86,7 +86,7 @@ const DownloadSection = () => {
         </p>
         <a
           href="https://github.com/Rohit-Nandagawali/NoCheat-Browser/releases/download/v0.1.0-beta/nocheat_0.1.0_amd64.deb"
-          className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900 cursor-not-allowed"
+          className="bg-black text-white py-4 px-6 rounded-lg flex items-center justify-center transition-colors duration-300 hover:bg-gray-900 "
           download
         >
           <FaLinux size={24} className="text-green-500 mr-2 transition-colors duration-300 hover:text-white" />
